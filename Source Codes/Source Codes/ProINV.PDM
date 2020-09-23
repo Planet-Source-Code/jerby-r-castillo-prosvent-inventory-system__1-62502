@@ -1,0 +1,120 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Documents and Settings\Ashish\Desktop\PROSVENT\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+E:\WINDOWS\system32\FM20.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+E:\WINDOWS\system32\MSCOMCTL.OCX=
+E:\WINDOWS\system32\scrrun.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+E:\Documents and Settings\Ashish\Desktop\PROSVENT\DATABASE\Thesis.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+E:\Documents and Settings\Ashish\Desktop\PROSVENT\ProINV.exe=Yes
+E:\WINDOWS\system32\msvbvm60.dll=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\WINDOWS\system32\MSBIND.DLL=Yes
+E:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+E:\WINDOWS\system32\MSRDO20.DLL=Yes
+E:\WINDOWS\system32\RDOCURS.DLL=Yes
+E:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+E:\WINDOWS\system32\scrrun.dll=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=Yes
+E:\WINDOWS\system32\MSDATGRD.OCX=Yes
+E:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+E:\WINDOWS\system32\MSCOMCT2.OCX=Yes
+E:\WINDOWS\system32\FM20.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINDOWS\system32\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\Documents and Settings\Ashish\Desktop\PROSVENT\DATABASE\Thesis.mdb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+E:\Documents and Settings\Ashish\Desktop\PROSVENT\ProINV.exe=$(AppPath)
+E:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+E:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+E:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+E:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+E:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+E:\WINDOWS\system32\scrrun.dll=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT.DLL=$(WinSysPathSysFile)
+E:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+E:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+E:\WINDOWS\system32\MSCOMCT2.OCX=$(WinSysPath)
+E:\WINDOWS\system32\FM20.DLL=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Documents and Settings\Ashish\Desktop\PROSVENT\DATABASE\Thesis.mdb=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+E:\Documents and Settings\Ashish\Desktop\PROSVENT\ProINV.exe=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+E:\Documents and Settings\Ashish\Desktop\PROSVENT\DATABASE\Thesis.mdb=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=PRosVent Manager 2005
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=ProINV
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|ProINV]
+Icon1=ProINV.exe
+Title1=ProINV
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=E:\Documents and Settings\Ashish\Desktop\PROSVENT\Package
+ProjectFolder=E:\Documents and Settings\Ashish\Desktop\PROSVENT
+ServerSideCab=
+File1=E:\Documents and Settings\Ashish\Desktop\PROSVENT\Package\setup.exe
+File2=E:\Documents and Settings\Ashish\Desktop\PROSVENT\Package\Setup.Lst
+File3=E:\Documents and Settings\Ashish\Desktop\PROSVENT\Package\ProINV.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
